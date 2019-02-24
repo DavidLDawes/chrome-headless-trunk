@@ -1,5 +1,7 @@
 # Chromium Headless Trunk
 
+Forked from alpeware, so I'm leaving their funding link in place. Experimenting with basing it on other images, so I need a fork.
+
 Using the binary from the Chromium snapshot bucket
 
 ![logo](https://lh4.googleusercontent.com/nOnP0piSjn9Wq3d821zhgtJbiL77VYLShSZdACIjTU86yydgurOchQFhpDIJhFouc4O0Pjc5QN4z-FvAgxaEvTdUsvEgADtFv_gkd4dNXsaLyynG3mzDtg2O51OB7YfbtDW49GFP "Logo")
