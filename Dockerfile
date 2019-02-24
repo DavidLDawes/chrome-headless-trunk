@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM node:10.15-stretch-slim
 
 LABEL maintainer "Alpeware <info@alpeware.com>"
 
