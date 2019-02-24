@@ -23,8 +23,8 @@ RUN wget -q -O chrome.zip https://commondatastorage.googleapis.com/chromium-brow
 
 RUN cd home && \
     wget http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_71.0.3578.98-0ubuntu0.16.04.1_amd64.deb && \
-    dpkg -i chromium-codecs-ffmpeg-extra_71.0.3578.98-0ubuntu0.16.04.1_amd64.deb
-    apt-get install -f chromium-codecs-ffmpeg-extra_71.0.3578.98-0ubuntu0.16.04.1_amd64.deb
+    dpkg -i chromium-codecs-ffmpeg-extra_71.0.3578.98-0ubuntu0.16.04.1_amd64.deb && \
+    apt-get install -f
 
 RUN google-chrome-unstable --version
 
