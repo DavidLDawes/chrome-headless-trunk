@@ -1,9 +1,7 @@
 FROM node:10.15-stretch-slim
 
-LABEL maintainer "Alpeware <info@alpeware.com>"
-
 ENV REV=634997
-
+8eb2a08ccea1
 EXPOSE 9222
 
 RUN apt-get update -qqy \
